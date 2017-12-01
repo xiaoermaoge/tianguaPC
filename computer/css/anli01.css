@@ -1,0 +1,296 @@
+/*������ʽstart*/
+html, body {
+    position: relative;
+    /*height: 100%;*/
+    /*width:100%;*/
+    box-sizing:border-box;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Helvetica Neue","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,Helvetica,Arial;
+}
+body{
+    overflow:scroll;
+    overflow-x:hidden;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:100%;
+    font-weight: normal;
+}
+body{
+    color:#666;
+    background:#fff;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Helvetica Neue","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,Helvetica,Arial;
+}
+ul,ol{
+    list-style-type:none;
+}
+.clearfloat:after{
+    display:table;
+    content:"";
+    clear:both;
+    height:0;
+    overflow:hidden;
+}
+a:hover{
+    text-decoration: none;
+    /*color:#333;*/
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+/*head start*/
+.head{
+    width:100%;
+    height:64px;
+    background-size:cover;
+    box-shadow: 0px 2px 2px 1px #f1f1f1;
+    padding:12px;
+    padding-bottom:0;
+}
+.head ul li a{
+    color:#333;
+}
+.head .head_left{
+    float:left;
+    margin-left:20px;
+}
+.head .head_left img{
+    width:125px;
+}
+.head .head_left a{
+    position: absolute;
+    top:12px;
+    width:125px;
+    height:43px;
+}
+.head .head_right{
+    float:right;
+    margin:15px 15px 0 0;
+}
+.head .head_right ul{
+    text-align:center;
+}
+.head .head_right ul li{
+    float:left;
+    margin-right:40px;
+    color:#fff;
+    letter-spacing: 0.1em;
+    cursor:pointer;
+}
+.head .head_right ul .head_right_first{
+    /*border-bottom:3px solid #7FCD61;*/
+    padding-bottom: 6px;
+}
+.hover{
+    border-bottom:3px solid #7FCD61;
+    padding-bottom: 6px;
+}
+.head .head_right ul span{
+    display:block;
+    float:left;
+    width:90px;
+    height:34px;
+    margin-right:40px;
+}
+.head .head_right ul span a div{
+    width:90px;
+    /*height:34px;*/
+    margin:0 auto;
+    text-align:center;
+    margin-top:-5px;
+    padding:5px 5px 8px 5px;
+    border:1px solid #333;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 6px;
+    color:#333;
+}
+
+/*head end*/
+/*footer start*/
+.footer{
+    width:100%;
+    background:#283443;
+    height:124px;
+    text-align:center;
+    font-size:14px;
+    font-family: 'PingFangSC-Regular';
+    color:#8999aa;
+    margin-top:100px;
+}
+.footer .footer_container{
+    width:1230px;
+    text-align:center;
+    display:inline-block;
+    margin-top:56px;
+}
+.footer .footer_container .footer_left,.footer_right{
+    display: inline-block;
+    position:relative;
+}
+.footer .footer_right{
+    margin-left:210px;
+}
+.footer span{
+    display:inline-block;
+}
+.footer .footer_one_bg{
+    background:url('../images/QQ.png');
+    width:16px;
+    height:17px;
+    /*margin-left:6px;*/
+    position:absolute;
+    top:1px;
+    left:-25px;
+    background-size: cover;
+}
+.footer .footer_two_bg{
+}
+.footer .footer_three_bg{
+    background: url('../images/youjian%20.png');
+    width:19px;
+    height:13px;
+    top:4px;
+    position:absolute;
+    background-size: cover;
+}
+.footer_four{
+    margin-left:30px;
+}
+/*footer end*/
+/*nav start*/
+.nav{
+    margin:0 auto;
+    margin-top:58px;
+    max-width:1150px;
+}
+/*.nav .nav_one{*/
+    /*/!*text-align:center;*!/*/
+/*}*/
+/*.nav .nav_one_bg{*/
+    /*background:url('../images/anli-678.png') no-repeat;*/
+    /*width:7px;*/
+    /*height:12px;*/
+/*}*/
+/*.nav .nav_one span{*/
+    /*display:inline-block;*/
+    /*font-size:18px;*/
+    /*letter-spacing: 0.1em;*/
+    /*line-height:1.5em;*/
+/*}*/
+/*.nav .nav_one span a{*/
+    /*color:#7FCD61;*/
+/*}*/
+.nav .nav_two{
+    margin-top:86px;
+    height:170px;
+}
+.nav_two .nav_two_left,.nav_two_right{
+    float:left;
+}
+.nav_two .nav_two_left{
+    /*background:url('../images/anli_LOGO-da.png') no-repeat 100%;*/
+    width:170px;
+    height:170px;
+}
+.nav_two_left img{
+    width:170px;
+    height:179px;
+}
+.nav_two .nav_two_right{
+    margin-left:108px;
+    max-width:870px;
+}
+.nav_two .nav_two_right_01div{
+    font-size:30px;
+    color:#4d4d4d;
+}
+.nav_two .nav_two_right_02div{
+    font-size:20px;
+    color:#fe7904;
+    margin-top:22px;
+}
+.nav_two .nav_two_right_03div{
+    font-size:16px;
+    color:#4d4d4d;
+    margin-top:26px;
+}
+.nav_two .nav_two_right_03div span{
+    display:inline-block;
+    padding:0 15px;
+    border:1px solid #7fcd61;
+    border-radius: 20px;
+    text-align:center;
+    margin-right:26px;
+}
+.nav_two .nav_two_right_03div span a{
+    color:#7fcd61;
+}
+
+.nav_two_right_04div{
+    margin-top:26px;
+    line-height:24px;
+}
+
+
+.nav_three{
+    width:1150px;
+    overflow:hidden;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Helvetica Neue","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,Helvetica,Arial;
+}
+.nav_three .nav_three_right,.nav_three_left{
+    float:left;
+}
+.nav_three_left img{
+    width:100%;
+}
+.nav .nav_three_left{
+    text-align:center;
+    /*margin-top:90px;*/
+    width:170px;
+}
+.nav .nav_three_left p{
+    font-size:14px;
+}
+.nav_three .nav_three_left01{
+    /*background:url('../images/anli_erweima.png') no-repeat 100%;*/
+    width:136px;
+    height:136px;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+
+.nav_three .nav_three_right{
+    width:866px;
+    font-size:16px;
+    color:#737373;
+    margin-left:108px;
+}
+.nav_three .nav_three_right .imglist_w img{
+    width:272px;
+    height:484px;
+    border:none;!important;
+    outline: none;!important;
+}
+.nav_three_right_01{
+    line-height:24px;
+}
+.nav_three .nav_three_tight_02{
+    margin-top:26px;
+    border-top:1px solid #ddd;
+}
+.nav_three .nav_three_tight_03{
+    margin-top:26px;
+    font-size:20px;
+    color:#4d4d4d;
+}
+/*nav end*/
+/*���� start*/
+@media screen and (max-height: 768px){
+    .footer .footer_right{
+        margin-left:44px;
+    }
+}
+/*���� end*/

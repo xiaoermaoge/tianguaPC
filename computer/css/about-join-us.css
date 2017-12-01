@@ -1,0 +1,420 @@
+/*������ʽstart*/
+html, body {
+    position: relative;
+    /*height: 100%;*/
+    /*width:100%;*/
+    box-sizing:border-box;
+}
+body{
+    overflow:scroll;
+    overflow-x:hidden;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:100%;
+    font-weight: normal;
+}
+body{
+    color:#666;
+    background:#fff;
+}
+ul,ol{
+    list-style-type:none;
+}
+.clearfloat:after{
+    display:table;
+    content:"";
+    clear:both;
+    height:0;
+    overflow:hidden;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+/*������ʽend*/
+/*head start*/
+.header{
+    width:100%;
+}
+.header .header_img{
+    display:inline-block;
+    width:100%;
+}
+.header .header_img img{
+    width:100%;
+}
+.head{
+    width:100%;
+    position: absolute;
+    top:0;
+    height:100px;
+    z-index:1000;
+    padding:12px;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+.head .head_left{
+    float:left;
+    margin-left:20px;
+}
+.head .head_left img{
+    width:125px;
+}
+.head .head_left a{
+    position:absolute;
+    top:12px;
+    width:125px;
+    height:43px;
+}
+.head .head_right{
+    float:right;
+    margin:15px 15px 0 0;
+}
+.head .head_right ul{
+    text-align:center;
+}
+.head .head_right ul li{
+    float:left;
+    margin-right:40px;
+    color:#fff;
+    letter-spacing: 0.1em;
+    cursor:pointer;
+}
+.head .head_right ul .head_right_first{
+    /*border-bottom:3px solid #7FCD61;*/
+    padding-bottom: 6px;
+}
+.hover{
+    border-bottom:3px solid #7FCD61;
+    padding-bottom: 6px;
+}
+.head .head_right ul span{
+    display:block;
+    float:left;
+    width:90px;
+    height:34px;
+    margin-right:40px;
+}
+.head .head_right ul span a div{
+    width:90px;
+    /*height:34px;*/
+    margin:0 auto;
+    text-align:center;
+    margin-top:-5px;
+    padding:5px 5px 8px 5px;
+    border:1px solid #ddd;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 6px;
+}
+.head .head_right ul span a div:hover{
+    background:#fff;
+    color:#333;
+}
+/*head end*/
+/*nav start*/
+.nav{
+    text-align:center;
+    width:1116px;
+    margin:0 auto;
+    margin-top:-50px;
+    position: relative;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+.nav .nav_left,.nav_right{
+    float:left;
+}
+.nav .nav_left{
+    width:302px;
+    height:190px;
+    background:#8CE46A;
+    color:#fff;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+.nav .nav_left_text{
+    margin:0 auto;
+    top:30%;
+    position:relative;
+}
+.nav .nav_left_text01{
+    font-size:32px;
+}
+.nav .nav_left_text02{
+    font-size:18px;
+    position:relative;
+    top:10px;
+}
+.nav .nav_right{
+    width:760px;
+    margin:0 auto;
+    margin-left:46px;
+}
+.nav .nav_right01{
+    margin-top:90px;
+    color:#4d4d4d;
+    font-size:26px;
+}
+.nav .nav_right02{
+    margin-top:28px;
+    font-size:18px;
+    color:#999;
+}
+.nav .nav_right03{
+    margin-top:32px;
+    border-top:1px solid #ddd;
+}
+/*nav end*/
+/*body start*/
+.body{
+    margin:0 auto;
+    margin-top:15px;
+    width:1116px;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+.body .body_left,.body_right{
+    float:left;
+}
+.body .body_left ul li{
+    width:304px;
+    padding:20px 0;
+    font-size:18px;
+    text-align:center;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+    /*border-left:2px solid #fff;*/
+}
+.body ul li a{
+    color:#666;
+}
+.body ul li a:hover{
+    color:#8ce46a;
+}
+.body ul .body_two a{
+    color:#8ce46a;
+}
+.active{
+    background:#F2F2F2;
+    border-left:2px solid #8ce46a;
+}
+.body_right{
+    margin-left:40px;
+    margin-top:20px;
+}
+.body_right ul li{
+    float:left;
+    cursor: pointer;
+}
+.body_right ul li:hover{
+    color:#8ce46a;
+}
+.body_right ul .body_right_one{
+    margin-right:42px;
+    float:left;
+}
+.body_right ul .body_right__two{
+    color:#8ce46a;
+    margin-right:56px;
+}
+.body_right ul .body_right_three{
+    margin-right:64px;
+}
+.body_right ul .body_right_four{
+    margin-right:64px;
+}
+.body_right_two{
+    margin-top:36px;
+}
+.body_right_two_first{
+    background:#B1DAA2;
+}
+.body_right_two div{
+    margin:0 auto;
+    width:770px;
+}
+.body_right_two div span{
+    display:inline-block;
+    width:185px;
+    padding:20px 0;
+    text-align:center;
+}
+.body_right_two div .body_right_modal{
+    cursor: pointer;
+    color:#8ce46a;
+}
+.body_right_two_second_bg_blank{
+    background-color:#F2F2F2;
+}
+.body_right_two_second_white{
+    background-color:#fff;
+}
+/*body end*/
+/*footer start*/
+.footer{
+    width:100%;
+    background:#283443;
+    height:124px;
+    text-align:center;
+    font-size:14px;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+    color:#8999aa;
+    margin-top:100px;
+}
+.footer .footer_container{
+    width:1230px;
+    text-align:center;
+    display:inline-block;
+    margin-top:56px;
+}
+.footer .footer_container .footer_left,.footer_right{
+    display: inline-block;
+    position:relative;
+}
+.footer .footer_container .footer_left .footer_left_tiao{
+    display:none;
+}
+.footer .footer_right{
+    margin-left:210px;
+}
+.footer span{
+    display:inline-block;
+}
+.footer .footer_one_bg{
+    background:url('../images/QQ.png');
+    width:16px;
+    height:17px;
+    /*margin-left:6px;*/
+    position:absolute;
+    top:1px;
+    left:-25px;
+    background-size: cover;
+}
+.footer .footer_two_bg{
+}
+.footer .footer_three_bg{
+    background: url('../images/youjian%20.png');
+    width:19px;
+    height:13px;
+    top:4px;
+    position:absolute;
+    background-size: cover;
+}
+.footer_four{
+    margin-left:30px;
+}
+/*footer end*/
+/*ģ̬�� start*/
+.modal{
+    position:fixed;
+    display:none;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    left:0;
+    top:0;
+    z-index:10000;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+.modal-data{
+    position:relative;
+    margin:0 auto;
+    top:10%;
+    /*right:32%;*/
+    width:700px;
+    height:700px;
+    z-index: 9999;
+}
+.modal-data-one{
+    background:#E6E6E6;
+    height:44px
+}
+.modal-data-one span{
+    display:inline-block;
+    margin-left:20px;
+    margin-top:10px;
+}
+.modal-data-one .modal-data-one-right{
+    background:url('../images/our_cha.png') no-repeat;
+    width:14px;
+    height:15px;
+    float:right;
+    margin-right:20px;
+    margin-top:15px;
+    cursor: pointer;
+}
+.modal-data-text-bg{
+    background:#fff;
+    height:100%;
+    width:100%;
+}
+.modal-data-two{
+    font-size:22px;
+    color:#4d4d4d;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+    margin-top:30px;
+}
+.modal-data-two p{
+    margin-left:44px;
+    float:left;
+    height:25px;
+    border-left:5px solid #8ce46a;
+    margin-top:3px;
+    margin-right:5px;
+}
+.modal-data-three{
+    margin-top:20px;
+    margin-left:44px;
+}
+.modal-data-three span{
+    display:inline-block;
+    margin-right:20px;
+}
+.modal-data-three .modal-data-three02{
+    margin-top:6px;
+}
+.modal-container{
+    overflow:auto;
+    height:576px;
+}
+.modal-container li{
+    list-style-type: none;
+}
+.modal-data-four{
+    margin-left:44px;
+    margin-right:40px;
+    margin-top:17px;
+    font-size:16px;
+    color:#4d4d4d;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+.modal-data-five{
+    margin:17px 40px 20px 44px;
+}
+
+.modal-data-six{
+    position:absolute;
+    bottom:34px;
+    left:44px;
+}
+.modal-data-six a{
+    color:#8ce46a;
+}
+/*ģ̬�� end*/
+/*���� start*/
+@media screen and (max-height: 768px){
+    .footer .footer_right{
+        margin-left:44px;
+    }
+    .modal .modal-data{
+        position:relative;
+        top:0;
+    }
+    .footer .footer_container .footer_left .footer_left_tiao{
+        display:inline;
+    }
+}
+/*���� end*/

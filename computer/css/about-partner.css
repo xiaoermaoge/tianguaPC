@@ -1,0 +1,279 @@
+/*������ʽstart*/
+html, body {
+    position: relative;
+    /*height: 100%;*/
+    /*width:100%;*/
+    box-sizing:border-box;
+}
+body{
+    overflow:scroll;
+    overflow-x:hidden;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:100%;
+    font-weight: normal;
+}
+body{
+    color:#666;
+    background:#fff;
+}
+ul,ol{
+    list-style-type:none;
+}
+.clearfloat:after{
+    display:table;
+    content:"";
+    clear:both;
+    height:0;
+    overflow:hidden;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+/*������ʽend*/
+/*head start*/
+.header{
+   width:100%;
+}
+.header .header_img{
+    display:inline-block;
+    width:100%;
+}
+.header .header_img img{
+    width:100%;
+}
+.head{
+    width:100%;
+    position: absolute;
+    top:0;
+    height:100px;
+    z-index:1000;
+    padding:12px;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+.head .head_left{
+    float:left;
+    margin-left:20px;
+}
+.head .head_left img{
+    width:125px;
+}
+.head .head_left a{
+    position:absolute;
+    top:12px;
+    width:125px;
+    height:43px;
+}
+.head .head_right{
+    float:right;
+    margin:15px 15px 0 0;
+}
+.head .head_right ul{
+    text-align:center;
+}
+.head .head_right ul li{
+    float:left;
+    margin-right:40px;
+    color:#fff;
+    letter-spacing: 0.1em;
+    cursor:pointer;
+}
+.head .head_right ul .head_right_first{
+    /*border-bottom:3px solid #7FCD61;*/
+    padding-bottom: 6px;
+}
+.hover{
+    border-bottom:3px solid #7FCD61;
+    padding-bottom: 6px;
+}
+.head .head_right ul span{
+    display:block;
+    float:left;
+    width:90px;
+    height:34px;
+    margin-right:40px;
+}
+.head .head_right ul span a div{
+    width:90px;
+    /*height:34px;*/
+    margin:0 auto;
+    text-align:center;
+    margin-top:-5px;
+    padding:5px 5px 8px 5px;
+    border:1px solid #ddd;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 6px;
+}
+.head .head_right ul span a div:hover{
+    background:#fff;
+    color:#333;
+}
+/*head end*/
+/*nav start*/
+.nav{
+    margin:0 auto;
+    margin-top:-50px;
+    width:1116px;
+    text-align:center;
+    position: relative;
+}
+.nav .nav_left,.nav_right{
+    float:left;
+}
+.nav .nav_left{
+    width:302px;
+    height:190px;
+    background:#8CE46A;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+}
+.nav_left_text{
+    top:30%;
+    margin:0 auto;
+    position:relative;
+    color:#fff;
+}
+.nav_left_text01{
+    font-size:32px;
+}
+.nav_left_text02{
+    font-size:18px;
+    position: relative;
+    top: 10px;
+}
+.nav_right{
+    width:770px;
+    margin:0 auto;
+    margin-left:42px;
+    margin-top:112px;
+}
+.nav_right01{
+    font-size:26px;
+}
+.nav_right02{
+    border-top:1px solid #ddd;
+    margin-top:20px;
+}
+/*nav end*/
+/*body start*/
+.body{
+    margin: 0 auto;
+    margin-top: 15px;
+    color: #666;
+    width: 1116px;
+    height:290px;
+}
+.body .body_left,.body_right{
+    float:left;
+}
+.body ul{
+    width:302px;
+    margin-top:20px;
+}
+.body ul li{
+    width: 304px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+    /*border-left:2px solid #fff;*/
+}
+.body .body_left a{
+    color:#666;
+}
+.body .body_left .body_three a{
+    color:#8ce46a;
+}
+.active{
+    background:#F2F2F2;
+    border-left:2px solid #8ce46a;
+}
+.body ul li a:hover{
+    color:#8ce46a;
+}
+.body_right{
+    margin-left:42px;
+    margin-top:20px;
+    width:770px;
+}
+.body_right div{
+    float:left;
+    width:256px;
+    text-align:center;
+    height:60px;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+/*body end*/
+/*footer start*/
+.footer{
+    width:100%;
+    background:#283443;
+    height:124px;
+    text-align:center;
+    font-size:14px;
+    font-family:'PingFangSC-Thin',"Microsoft YaHei UI","Hiragino Sans GB W3","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif,"Helvetica Neue",Helvetica,Arial;
+    color:#8999aa;
+    margin-top:100px;
+}
+.footer .footer_container{
+    width:1230px;
+    text-align:center;
+    display:inline-block;
+    margin-top:56px;
+}
+.footer .footer_container .footer_left,.footer_right{
+    display: inline-block;
+    position:relative;
+}
+.footer .footer_container .footer_left .footer_left_tiao{
+    display:none;
+}
+.footer .footer_right{
+    margin-left:210px;
+}
+.footer span{
+    display:inline-block;
+}
+.footer .footer_one_bg{
+    background:url('../images/QQ.png');
+    width:16px;
+    height:17px;
+    /*margin-left:6px;*/
+    position:absolute;
+    top:1px;
+    left:-25px;
+    background-size: cover;
+}
+.footer .footer_two_bg{
+}
+.footer .footer_three_bg{
+    background: url('../images/youjian%20.png');
+    width:19px;
+    height:13px;
+    top:4px;
+    position:absolute;
+    background-size: cover;
+}
+.footer_four{
+    margin-left:30px;
+}
+/*footer end*/
+/*���� start*/
+@media screen and (max-height: 768px){
+    .footer .footer_right{
+        margin-left:44px;
+    }
+    .footer .footer_container .footer_left .footer_left_tiao{
+        display:inline;
+    }
+}
+/*���� end*/

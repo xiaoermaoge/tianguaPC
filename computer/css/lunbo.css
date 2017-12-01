@@ -1,0 +1,60 @@
+* { margin: 0; padding: 0; list-style-type: none; }
+a, img { border: 0;outline: none; }
+body {
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft Yahei", "Wenquanyi Micro Hei", sans-serif;
+
+}
+.scrolltitle { height: 24px; font-size: 14px; width: 742px; border-bottom: solid 1px #ddd; margin: 20px auto 15px auto; }
+a.abtn {
+    display: block;
+    height: 40px;
+    width: 37px;
+    overflow: hidden;
+}
+a.aleft {
+    float: left;
+    background: url('../images/anli_fanye2.png');
+    position:absolute;
+    top:50%;
+    left:0;
+    z-index:1000;
+}
+a.agrayleft {
+    cursor: pointer;
+}
+a.aright {
+    float: right;
+    background: url('../images/anli_fanye.png');
+    position:absolute;
+    top:50%;
+    right:20px;
+}
+a.agrayright {
+    cursor: default;
+}
+.scrolllist {
+    width: 896px;
+    height: 484px;
+    margin: 0 auto;
+    position:relative
+}
+.scrolllist .imglist_w {
+    width: 896px;
+    height: 484px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-top:26px;
+    /*必要元素*/
+}
+.scrolllist .imglist_w ul {
+    width: 20000px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.scrolllist .imglist_w li {
+    width: 272px;
+    float: left;
+    margin-right:30px;
+}
